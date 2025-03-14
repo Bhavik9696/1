@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background: url(karphoto.jpg) no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calbac{
+    height: 85%;
+    width: 25%;
+    padding: 0px 9px;
+    background-color: rgba(255, 255, 255, 0.036);
+    border-radius: 20px;
+    box-shadow: 0 0 10px 10px rgb(1, 1, 1);
+}
+
+.calbac input{
+    margin: 9px 0px;
+    height: 79px;
+    width: 99%;
+    background-color:rgba(255, 255, 255, 0.397);
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: 600;
+    box-shadow: 0 0 10px 5px rgb(103, 212, 86);
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns button{
+    height: 69px;
+    width: 69px;
+    margin: 9px;
+    border-radius: 10px;
+    font-size: 2.0rem;
+    background-color: transparent;
+    cursor: pointer;
+    box-shadow: 0 0 5px 2px rgb(146, 223, 230);
+}
+
+.btns button:hover{
+    box-shadow: 0 0 10px 5px rgb(224, 230, 148);
+}
+
+
+@media screen and (max-width:1140px){
+    .calbac{
+        height: 95%;
+        width: 100%;
+        padding: 50px;
+        box-shadow: 0 0 10px 10px rgb(145, 205, 100);
+        background-color: rgba(255, 255, 255, 0.174);
+    }
+    .main{
+        border-radius: 10px;
+    }
+    
+}
+
+@media screen and (max-width:370px){
+    .calbac{
+        height: 100%;
+        width: 100%;
+    }
+    .main{
+        border-radius: 10px;
+    }
+    .btns{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 0px;
+    }
+    
+    .btns button{
+        height: 49px;
+        width: 49px;
+        margin: 5px;
+        margin-bottom: 9px;
+        border-radius: 10px;
+        font-size: 2.0rem;
+        background-color: transparent;
+        cursor: pointer;
+        box-shadow: 0 0 5px 2px rgb(146, 223, 230);
+    }
+}

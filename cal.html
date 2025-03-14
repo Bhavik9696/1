@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculater</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div class="main">
+        <div class="calbac">
+            <input type="text" readonly>
+            <div class="btns">
+            <div>
+                <button onclick="currentdisplay=' '
+                ip.value=currentdisplay;
+                 ">C</button>
+
+                <button onclick="currentdisplay=currentdisplay+'1'
+               ip.value=currentdisplay;
+                ">1</button>
+                <button onclick="currentdisplay=currentdisplay+'2'
+                ip.value=currentdisplay;
+                 ">2</button>
+            </div>
+            <div>
+                <button onclick="currentdisplay=currentdisplay+'+'
+                ip.value=currentdisplay;
+                 ">+</button>
+                <button onclick="currentdisplay=currentdisplay+'3'
+                ip.value=currentdisplay;
+                 ">3</button>
+                <button onclick="currentdisplay=currentdisplay+'4'
+                ip.value=currentdisplay;
+                 ">4</button>
+            </div>
+            <div>
+                <button onclick="currentdisplay=currentdisplay+'-'
+                ip.value=currentdisplay;
+                 ">-</button>
+                <button onclick="currentdisplay=currentdisplay+'5'
+                ip.value=currentdisplay;
+                 ">5</button>
+                <button onclick="currentdisplay=currentdisplay+'6'
+                ip.value=currentdisplay;
+                 ">6</button>
+            </div>
+            <div>
+                <button onclick="currentdisplay=currentdisplay+'*'
+                ip.value=currentdisplay;
+                 ">*</button>
+                <button onclick="currentdisplay=currentdisplay+'7'
+                ip.value=currentdisplay;
+                 ">7</button>
+                <button onclick="currentdisplay=currentdisplay+'8'
+                ip.value=currentdisplay;
+                 ">8</button>
+            </div>
+            <div>
+                <button onclick="currentdisplay=currentdisplay+'/'
+                ip.value=currentdisplay;
+                 ">/</button>
+
+
+
+
+                <button onclick="
+                let result=eval(currentdisplay).toString();
+                currentdisplay=result;
+
+                ip.value=currentdisplay;
+                 ">=</button>
+                <button onclick="currentdisplay=currentdisplay+'9'
+                ip.value=currentdisplay;
+                 ">9</button>
+            </div>
+            <div>
+                <button onclick="currentdisplay=currentdisplay+'0'
+                ip.value=currentdisplay;
+                 ">0</button>
+                <button onclick="currentdisplay=currentdisplay+'.'
+                ip.value=currentdisplay;
+                 ">.</button>
+            </div>
+        </div>
+        </div>
+
+    </div>
+    <script src="cal.js"></script>
+</body>
+</html>
